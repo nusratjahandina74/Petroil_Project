@@ -8,7 +8,7 @@ import Logo from "./components/Logo/Logo"
 import Maps from "./components/Maps/Maps"
 import Navbar from "./components/Navbar/Navbar"
 import Service from "./components/Service/Service"
-import Slider from "./components/Slider/Slider"
+import ImageSlider from "./components/Slider/ImageSlider"
 import Supplier from "./components/Supplier/Supplier"
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <Banner />
       <Supplier />
-      <Slider />
+      <ImageSlider />
       <Service />
       <About />
       <Logo />
