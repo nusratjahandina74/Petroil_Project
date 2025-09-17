@@ -25,24 +25,21 @@ const ImageSlider = () => {
     <>
    <div className='w-full'>
 <Slider {...settings}>
-     
-   <div className="px-2">
-          <img className="w-full" src={sliderOne} alt="" />
-        </div>
-        <div className="px-2">
-          <img className="w-full" src={sliderTwo} alt="" />
-        </div>
-        <div className="px-2">
-          <img className="w-full" src={sliderThree} alt="" />
-        </div>
-        <div className="px-2">
-          <img className="w-full" src={sliderFour} alt="" />
-        </div>
-        <div className="px-2">
-          <img className="w-full" src={sliderTwo} alt="" />
-        </div>
-
-      
+     <div className='pl-1'>
+      <img className="w-full" src={sliderOne} alt="" />
+     </div>
+     <div className='px-1'>
+      <img className="w-full" src={sliderTwo} alt="" />
+     </div>
+     <div className='px-1'>
+     <img className="w-full" src={sliderThree} alt="" />
+     </div>
+     <div className='px-1'>
+    <img className="w-full" src={sliderFour} alt="" />   
+     </div>
+     <div className='pl-1'>
+    <img className="w-full" src={sliderTwo} alt="" />  
+     </div>
     </Slider>
    </div>
 

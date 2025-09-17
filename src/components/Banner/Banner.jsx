@@ -8,7 +8,7 @@ const Banner = () => {
       <Container>
         <div className='font-primary text-white'>
           <h1 className='text-[64px] font-bold w-[842px]'>We exist since 1975 on the oil and gas industry.</h1>
-          <button className='py-[13px] px-[40px] bg-[#F40404] mt-[31px] font-semibold'>LEARN MORE</button>
+          <button className='py-[13px] px-[40px] bg-[#F40404] mt-[31px] font-semibold hover:bg-transparent border-2 border-[#F40404] hover:border-white duration-500 ease-in-out'>LEARN MORE</button>
         </div>
       </Container>
 
