@@ -7,9 +7,9 @@ import logoThree from "../../assets/logoThree.png"
 import logoFour from "../../assets/logoFour.png"
 const Logo = () => {
   return (
-    <div className='py-[117px]'>
+    <div className='py-[20px] md:py-[117px]'>
         <Container>
-            <Flex className='flex items-center gap-x-[26px]'>
+            <Flex className='flex-row items-center gap-x-[10px] md:gap-x-[26px] w-[23%] md:w-[25%]'>
               <img src={logoOne} alt="#logoOne" />
               <img src={logoTwo} alt="#logoTwo" />
               <img src={logoThree} alt="#logoThree" />
