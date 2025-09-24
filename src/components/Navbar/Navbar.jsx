@@ -39,14 +39,14 @@ const Navbar = () => {
                     <div className='block md:hidden'>
                         {
                             show ?
-                                <div className='absolute top-[150px] left-0 bg-[#F40404] w-full z-[99999]'>
-                                    <Flex className='flex-col font-primary font-semibold text-[14px] list-none ml-[10px] mt-[10px] mb-[20px] '>
+                                <div className='absolute top-[140px] left-0 bg-[#F40404] w-full z-[99999]'>
+                                    <Flex className='flex-col font-primary font-semibold text-[14px] list-none ml-[15px] mt-[15px] mb-[50px]'>
                                         <li className='hover:text-black duration-300'><a href=''>Home</a></li>
                                         <li className='hover:text-black duration-300'><a href=''>About</a></li>
                                         <li className='hover:text-black duration-300'><a href=''>Services</a></li>
                                         <li className='hover:text-black duration-300'><a href=''>Gallery</a></li>
                                         <li className='hover:text-black duration-300'><a href=''>Blog</a></li>
-                                        <li className='mt-[20px]'><a href='' className='md:w-auto border-2 py-[13px] px-[32px] hover:bg-white hover:text-black border hover:border-transparent duration-500 ease-in-out'>CONTACT</a></li>
+                                        <li className='mt-[30px]'><a href='' className='md:w-auto border-2 py-[10px] px-[20px] hover:bg-white hover:text-black border hover:border-transparent duration-500 ease-in-out text-[14px]'>CONTACT</a></li>
                                     </Flex>
                                 </div>
                                 : ""

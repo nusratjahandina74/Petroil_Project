@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <div className='bg-[#282828] border-b-5 border-[#FFB800]'>
             <Container >
-                <div className='font-primary py-[15px] text-white'>
-                    <Flex className='flex-row md:justify-between items-center'>
+                <div className='font-primary py-[12px] md:py-[15px] text-white'>
+                    <Flex className='flex-row justify-between items-center'>
                         <Flex className='flex-col md:flex-row space-x-[49px]'>
                             <Flex className='flex-row items-center space-x-[5px]'>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,13 +18,13 @@ const Header = () => {
                                 </svg>
                                 <p className='text-[12px]'>mail@yourcompany.com</p>
                             </Flex>
-                            <Flex className="flex-row relative after:content-[''] after:absolute after:top-[3px] after:left-[-27px] after:w-[2px] after:h-[16px] after:bg-[#5C6A92] space-x-[5px] items-center">
+                            <Flex className="flex-row relative md:after:content-[''] md:after:absolute md:after:top-[3px] md:after:left-[-27px] md:after:w-[2px] md:after:h-[16px] md:after:bg-[#5C6A92] md:space-x-[5px] items-center">
                                 <FiPhoneCall size={20} />
                                 <p className='text-[12px]'>+896 120 5889 (Toll free)</p>
                             </Flex>
                         </Flex>
                         <div>
-                            <Flex className='flex-row space-x-[19px]'>
+                            <Flex className='flex-row space-x-[10px] md:space-x-[19px]'>
                                 <RiFacebookFill size={16} />
                                 <FaTwitter size={16} />
                                 <FaLinkedinIn size={16} />

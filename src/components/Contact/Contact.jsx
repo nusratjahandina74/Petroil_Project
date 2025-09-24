@@ -4,7 +4,7 @@ import Flex from '../Layouts/Flex'
 
 const Contact = () => {
   return (
-    <div className='bg-[#F40404] py-[15px] md:py-[46px] border-b-5 border-[#FFB800]'>
+    <div className='bg-[#F40404] py-[10px] md:py-[46px] border-b-5 border-[#FFB800]'>
       <Container>
         <Flex className='flex-row justify-between font-primary text-white items-center'>
           <h2 className='font-bold text-[18px] md:text-[36px] w-auto md:w-[959px]'>Want to join as member branch in your area?</h2>

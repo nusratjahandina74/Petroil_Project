@@ -8,14 +8,14 @@ import logoFour from "../../assets/logoFour.png"
 const Logo = () => {
   return (
     <div className='py-[20px] md:py-[117px]'>
-        <Container>
-            <Flex className='flex-row items-center gap-x-[10px] md:gap-x-[26px] w-[23%] md:w-[25%]'>
-              <img src={logoOne} alt="#logoOne" />
-              <img src={logoTwo} alt="#logoTwo" />
-              <img src={logoThree} alt="#logoThree" />
-              <img src={logoFour} alt="#logoFour" />
-            </Flex>
-        </Container>
+      <Container>
+        <Flex className='flex-col md:flex-row items-center justify-center md:justify-between md:gap-x-[26px] w-[150px] md:w-[25%] mx-auto md:mx-0'>
+          <img src={logoOne} alt="#logoOne" />
+          <img src={logoTwo} alt="#logoTwo" />
+          <img src={logoThree} alt="#logoThree" />
+          <img src={logoFour} alt="#logoFour" />
+        </Flex>
+      </Container>
     </div>
   )
 }
